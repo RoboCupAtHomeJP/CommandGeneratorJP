@@ -55,25 +55,25 @@ class CommandGenerator:
 
     # gesture_person_list = ["waving person", "person raising their left arm", "person raising their right arm",
     #                        "person pointing to the left", "person pointing to the right"]
-    gesture_person_list = ["person raising their right arm", "person doing thumbs up", "person clapping hands",
-                           "person pointing to the left", "person waving their left arm", "person giving the V sign"]
+    gesture_person_list = ["person raising their right arm", "person pointing to the left",
+                           "person giving the V sign"]
 
     # pose_person_list = ["sitting person", "standing person", "lying person"]
     pose_person_list = ["sitting person", "standing person", "squatting person",
-                        "person looking back", "person looking up", "person crossing one's arms"]
+                        "person looking back", "person crossing one's arms"]
 
     # Ugly...
     # gesture_person_plural_list = ["waving persons", "persons raising their left arm", "persons raising their right arm",
     #                               "persons pointing to the left", "persons pointing to the right"]
-    gesture_person_plural_list = ["people raising their right arm", "people doing thumbs up", "people clapping hands",
-                                  "people pointing to the left", "people waving their left arm", "people giving the V sign"]
+    gesture_person_plural_list = ["people raising their right arm", "people pointing to the left",
+                                  "people giving the V sign"]
     
     # pose_person_plural_list = ["sitting persons", "standing persons", "lying persons"]
     pose_person_plural_list = ["sitting people", "standing people", "squatting people",
-                               "people looking back", "people looking up", "people crossing one's arms"]
+                               "people looking back", "people crossing one's arms"]
 
     # person_info_list = ["name", "pose", "gesture"]
-    person_info_list = ["name", "pose", "gesture", "gender", "shirt color", "pants color", "age", "height", "number of glasses"]
+    person_info_list = ["name", "shirt color", "age", "height"]
     object_comp_list = ["biggest", "largest", "smallest", "heaviest", "lightest", "thinnest"]
 
     # talk_list = ["something about yourself", "the time", "what day is today", "what day is tomorrow", "your teams name",
