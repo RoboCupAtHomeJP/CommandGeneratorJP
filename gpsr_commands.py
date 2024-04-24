@@ -78,9 +78,9 @@ class CommandGenerator:
 
     # talk_list = ["something about yourself", "the time", "what day is today", "what day is tomorrow", "your teams name",
     #              "your teams country", "your teams affiliation", "the day of the week", "the day of the month"]
-    talk_list = ["something about yourself", "what day is today", "what day is tomorrow",
-                 "where is RoboCup held this year", "what is the result of 3 plus 5", "your team's name",
-                 "where do you come from", "what is the weather like today", "what time is it"]
+    talk_list = ["something about yourself", "what day today is", "what day tomorrow is",
+                 "where RoboCup is held this year", "what the result of 3 plus 5 is", "your team's name",
+                 "where you come from", "what the weather is like today", "what the time is"]
 
     question_list = ["question", "quiz"]
 
