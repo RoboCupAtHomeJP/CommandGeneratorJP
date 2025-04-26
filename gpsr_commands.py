@@ -162,12 +162,12 @@ class CommandGenerator:
             command_string = "{bringVerb} me {art} {obj} {fromLocPrep} the {plcmtLoc}"
         elif command == "tellCatPropOnPlcmt":
             command_string = "{tellVerb} me what is the {objComp} {singCat} {onLocPrep} the {plcmtLoc}"
-        elif command == "greetClothDscInRm":
-            command_string = "{greetVerb} the person wearing {art} {colorClothe} {inLocPrep} the {room} and " + \
-                             self.generate_command_followup("foundPers", cmd_category, difficulty)
-        elif command == "greetNameInRm":
-            command_string = "{greetVerb} {name} {inLocPrep} the {room} and " + \
-                             self.generate_command_followup("foundPers", cmd_category, difficulty)
+        # elif command == "greetClothDscInRm":
+        #     command_string = "{greetVerb} the person wearing {art} {colorClothe} {inLocPrep} the {room} and " + \
+        #                      self.generate_command_followup("foundPers", cmd_category, difficulty)
+        # elif command == "greetNameInRm":
+        #     command_string = "{greetVerb} {name} {inLocPrep} the {room} and " + \
+        #                      self.generate_command_followup("foundPers", cmd_category, difficulty)
         elif command == "meetNameAtLocThenFindInRm":
             command_string = "{meetVerb} {name} {atLocPrep} the {loc} then {findVerb} them {inLocPrep} the {room}"
         elif command == "countClothPrsInRoom":
